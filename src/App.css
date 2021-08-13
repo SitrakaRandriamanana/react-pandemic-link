@@ -1,0 +1,119 @@
+header{
+    margin-bottom: 25px;
+    height: 350px;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-image: url("background/covid-19.png");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}    
+
+/*
+***********NAVIGATION MENU************
+*/
+nav{
+    width: 80%;
+    margin: 0 auto 25px auto;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+#logo h1{
+    font-family: century;
+    /* font-size: 1px; */
+}
+ul li{
+    display: inline;
+    list-style: none;
+    margin: 5px;
+}
+ul li a{
+   text-decoration: none;
+   color: black;
+   border-radius: 15px;
+   text-transform: uppercase;
+   padding: 5px 15px;
+}
+ul li a:hover{
+    color: white;
+    background-color: rgb(230, 10, 10);
+    transition: all .3s ease-out;
+    cursor: pointer;
+ }
+ .active{
+     color: white;
+     border-radius: 15px ;
+     background-color: rgb(230, 10, 10);
+ }
+
+ /*
+***********NAVIGATION BOUTON************
+*/
+
+.btn button{    
+    margin: 5px;
+    padding: 5px 15px;
+    border: 2px solid rgb(230, 10, 10);
+    border-radius: 15px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn button:hover{
+    margin: 5px;
+    padding: 5px 15px;
+    color: white;
+    background-color: rgb(230, 10, 10);
+    border: 2px solid rgb(230, 10, 10);
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.recherche{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: white;
+}
+.recherche P{
+    padding: 10px 25px;
+    margin: 15px auto;
+    width: 500px;
+    border-radius: 15px;;
+    background-color: rgb(230, 10, 10);
+    
+}
+.recherche input{
+    width: 300px;
+    border: none;
+    padding: 8px;
+    border-radius: 15px 0 0 15px;
+}
+.recherche button{
+    padding: 10px 15px;
+    border: none;
+    background-color: none;
+    border-radius: 0 15px 15px 0;
+}
+.recherche button:hover{
+    cursor: pointer;
+    background-color: rgb(231, 33, 33);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.News{
+    margin: 0 auto;
+    width: 80%;
+    text-align: justify;
+}
+.content img {
+    height: 250px;
+}
+.News div{
+    padding: 25px;
+}
